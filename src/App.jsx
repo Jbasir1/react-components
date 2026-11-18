@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import SidebySide from './components/SidebySide'
 import './App.css'
+import EnterText from './components/EnterText'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
       <SidebySide />
+      <EnterText/>
     </>
   )
 }
